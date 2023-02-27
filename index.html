@@ -13,35 +13,34 @@
     <h1>Mad Lib Recipe</h1>
     <form>
         <ul>
-            <li><input id="textone" type="text" placeholder="food"></li>
-            <li><input id="textone" type="text" placeholder="previous food item"></li>
-            <li><input id="textone" type="text" placeholder="number"></li>
-            <li><input id="textone" type="text" placeholder="measurment"></li>
-            <li><input id="textone" type="text" placeholder="adjective"></li>
-            <li><input id="textone" type="text" placeholder="verb ending in -ing"></li>
-            <li><input id="textone" type="text" placeholder="adjective"></li>
-            <li><input id="textone" type="text" placeholder="adverb"></li>
-            <li><input id="textone" type="text" placeholder="verb"></li>
-            <li><input id="textone" type="text" placeholder="adjective"></li>
-            <li><input id="textone" type="text" placeholder="noun"></li>
-            <li><input id="textone" type="text" placeholder="adjective"></li>
-            <li><input id="textone" type="text" placeholder="verb"></li>
-            <li><input id="textone" type="text" placeholder="adjective"></li>
-            <li><input id="textone" type="text" placeholder="noun"></li>
-            <li><input id="textone" type="text" placeholder="verb"></li>
-            <li><input id="textone" type="text" placeholder="adjective"></li>
-            <li><input id="textone" type="text" placeholder="food item from title"></li>
-            <li><input id="textone" type="text" placeholder="noun"></li>
-            <li><input id="textone" type="text" placeholder="adjective"></li>
-            </ul>
+            <li><input type="text" placeholder="food" id="wordOne"></li>
+            <li><input type="text" placeholder="previous food item" id="wordTwo"></li>
+            <li><input type="text" placeholder="number" id="wordThree"></li>
+            <li><input type="text" placeholder="measurment" id="wordFour"></li>
+            <li><input type="text" placeholder="adjective" id="wordFive"></li>
+            <li><input type="text" placeholder="verb ending in -ing" id="wordSix"></li>
+            <li><input type="text" placeholder="adjective" id="wordSeven"></li>
+            <li><input type="text" placeholder="adverb" id="wordEight"></li>
+            <li><input type="text" placeholder="verb" id="wordNine"></li>
+            <li><input type="text" placeholder="adjective" id="wordTen"></li>
+            <li><input type="text" placeholder="noun" id="wordEleven"></li>
+            <li><input type="text" placeholder="adjective" id="wordTwelve"></li>
+            <li><input type="text" placeholder="verb" id="wordThirteen"></li>
+            <li><input type="text" placeholder="adjective" id="wordFourteen"></li>
+            <li><input type="text" placeholder="noun" id="wordFifteen"></li>
+            <li><input type="text" placeholder="verb" id="wordSixteen"></li>
+            <li><input type="text" placeholder="adjective" id="wordSeventeen"></li>
+            <li><input type="text" placeholder="food item from title" id="wordEighteen"></li>
+            <li><input type="text" placeholder="noun" id="wordNineteen"></li>
+            <li><input type="text" placeholder="adjective" id="wordTwenty"></li>
+        </ul>
     </form>
-    <p>Let's make (food item)! To make (previous food item) you first need to gather your ingredients. You'll
-        need (number) egg(s), a (measurment) of milk, flour, sugar, and (adjective) butter. Start by (verb ending in -ing)
-        together the (adjective) ingredients in a bowl. Then, (adverb)(verb) in the milk, eggs, and (adjective) butter.
-        Once the (noun) is (adjective), you're ready to (verb)! Scoop the batter onto a/an (adjective)(noun) and cook
-        until all the bubbles (verb). The (adjective) part about making (food item from title) is piling them onto your
-        (noun), loading them with your (adjective) toppings, and digging in!</p>
+    <div class="container">
+    <button onclick=createParagraph()>Put it in the oven!</button>
+    </div>
+    <div id="answer"></div>
 
+    <script src="app.js"></script>
 </body>
 
 </html>
